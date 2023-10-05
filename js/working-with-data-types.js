@@ -7,7 +7,7 @@
 //
 // let d = "hello";
 // let e = false;
-//
+
 // d++;
 // e++;
 // console.log(d++);
@@ -21,14 +21,14 @@
 // // price.toFixed(2);
 // // console.log(price.toFixed(2));
 //
-// let price = "2.7";
-// console.log(price)
-// let priceFixed = price.toFixed(2);
-// console.log(priceFixed)
-
-//isNaN(0)
-
-
+// // let price = "2.7";
+// // console.log(price)
+// // let priceFixed = price.toFixed(2);
+// // console.log(priceFixed)
+//
+// isNaN(0)
+//
+//
 // let sample = "Hello Codeup";
 // let wordLength = sample.length;
 // console.log("wordLength => " , sample.length);
@@ -41,7 +41,7 @@
 // console.log("IndexOfC => ", sample.indexOf("C"));
 // let codeUp = sample.substring(nameStart,wordLength);
 // console.log(codeUp)
-
+//
 // var mermaid = 3;
 // var bear = 5;
 // var hercules = 1;
@@ -49,18 +49,18 @@
 // var days = mermaid + bear + hercules;
 // var total = days * price
 // console.log("$" + total)
-
+//
 // let google = 400;
 // let amazon = 380;
 // let facebook = 350;
 // let total = (google*6)+(amazon*4)+ (facebook*10);
 // console.log("$" + total)
-
+//
 // let username = 'codeup';
 // let password = 'notastrongpassword';
 // let short = password.length >= 5;
 // console.log(short);
-// let unique = password.includes(username);
+// let unique = password.toLowerCase().includes(username.toLowerCase());
 // console.log(unique);
 // let long = username.length <= 20;
 // console.log(long);
