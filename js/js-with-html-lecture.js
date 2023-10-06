@@ -99,3 +99,95 @@
 
 // default vales
 // const sayHello = (usersfullName = "no username") =>
+
+
+// conditionals
+// const username = "jesenkoi";
+//
+// if(username) {
+//     console.log("The user is logged in!");
+// } else {
+//     console.log("The user is not logged in");
+// }
+//
+//
+// console.log("THIS IS AFTER THE CONDIONAL STATEMENT!");
+
+// const nmrOfUsers = 1000;
+//
+// if (nmrOfUsers >= 10000) {
+//     console.log("Thats too many users");
+// } else if (nmrOfUsers >= 200) {
+//     console.log("Thats alot of users")
+// } else {
+//     console.log("Marketing needs to do a better job!");
+// }
+
+// const userRole = "admin";
+//
+// if(userRole === "student"){
+//     console.log("Let the see the curriculum");
+// } else if (userRole === "admin"){
+//     console.log("let them see the curriculum and the instructor portal");
+// } else{
+//     console.log("Dont let them login");
+// };
+
+// const isTwo = (number) => {
+//     if(typeof number !== "number") {
+//         return false;
+//     }
+//
+//     let result = number === 2;
+//     return result;
+// };
+//
+// const number= 1
+
+// const calculateTip = (tipPercantage,billTotal) => {
+//    if(){
+//
+//    }
+//     let tipDecimal = parseFloat(tipPercantage)/100;
+//     let result = parseFloat(billTotal) * parseFloat(tipPercantage);
+//     return result;
+// }
+//
+//
+// console.log("THIS IS AFTER THE CONDITIONAL STATEMENT")
+
+//Ternary Operator
+
+// const isLoggedIn = false;
+//
+// // let message;
+// // if(isLoggedIn) {
+// //     let message = "Welcome back";
+// // } else {
+// //     let message = "Please Log In";
+// // }
+//
+// let message = isLoggedIn ? "Welcome back!" : "Please Log in"
+//
+// console.log(message);
+
+// Switch statemnts
+let pizzaPreference = prompt("What king of pizza do you like?");
+
+switch(pizzaPreference.toLowerCase()) {
+    case "cheese":
+        console.log("I Love Cheese too");
+        break;
+    case "hawaiian":
+        console.log("I dig it sweet and salty");
+        break;
+    case "supreme":
+        console.log("Me too why choose when you can have everything");
+        break;
+    case "Perperoni":
+        console.log("Classic choice");
+        break;
+    default:
+        console.log("What a werido...");
+        break;
+}
