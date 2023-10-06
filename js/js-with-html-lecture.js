@@ -61,16 +61,41 @@
 // }
 
 
-STRING METHODS
+// STRING METHODS
+//
+// let username = "Justino(Nova)";
+// let guildName;
+//
+// let nameLength = username.length;
+// console.log("nameLength => " , nameLength);
+// let guildNameStart = username.indexOf("(");
+// console.log("guildNameStart => ", guildNameStart);
+// let guildNameEnd = nameLength - 1;
+// guildName = username.substring(guildNameStart + 1 ,guildNameEnd );
+// console.log("guildName =>", guildName);
+// username = username.replace("(" + guildName + ")", "")
 
-let username = "Justino(Nova)";
-let guildName;
 
-let nameLength = username.length;
-console.log("nameLength => " , nameLength);
-let guildNameStart = username.indexOf("(");
-console.log("guildNameStart => ", guildNameStart);
-let guildNameEnd = nameLength - 1;
-guildName = username.substring(guildNameStart + 1 ,guildNameEnd );
-console.log("guildName =>", guildName);
-username = username.replace("(" + guildName + ")", "")
+/// Functions
+
+// const sayHello = (usersFullName) => {
+// //     console.log(`Hello, ${usersFullName}`);
+// // };
+// //
+// // sayHello("Ian")
+//
+// // arrow function with return
+//
+//
+// const isCoding = (usersfullname, greeting, regards) => {
+//     return`${usersfullname} ${greeting} ${regards}`;
+// };
+//
+// const name = "Ian";
+// const lovesCoding = "Loves Coding";
+// const goodBye = "Have a good day";
+// const greeting = isCoding(name,lovesCoding,goodBye);
+// console.log(greeting);
+
+// default vales
+// const sayHello = (usersfullName = "no username") =>
