@@ -1,14 +1,19 @@
+let userNumber;
 while (true) {
     let userInput = prompt("Please enter an odd number between 1 and 50:");
+    userNumber = parseInt(userInput);
 
-    let number = parseInt(userInput);
-
-    if (!isNaN(number) && number >= 1 && number <= 50 && number % 2 !== 0) {
-
-        console.log("You entered a valid odd number.");
+    if (!isNaN(userNumber) && userNumber >= 1 && userNumber <= 50 && userNumber % 2 !== 0) {
         break;
     } else {
-
         alert("Invalid input. Please enter a valid odd number between 1 and 50.");
     }
+}
+
+
+for (let i = 1; i <= 50; i++) {
+    if (i % 2 === 0 || i === userNumber) {
+        continue;
+    }
+    console.log(i);
 }
