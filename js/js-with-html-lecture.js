@@ -172,22 +172,29 @@
 // console.log(message);
 
 // Switch statemnts
-let pizzaPreference = prompt("What king of pizza do you like?");
+// let pizzaPreference = prompt("What king of pizza do you like?");
+//
+// switch(pizzaPreference.toLowerCase()) {
+//     case "cheese":
+//         console.log("I Love Cheese too");
+//         break;
+//     case "hawaiian":
+//         console.log("I dig it sweet and salty");
+//         break;
+//     case "supreme":
+//         console.log("Me too why choose when you can have everything");
+//         break;
+//     case "Perperoni":
+//         console.log("Classic choice");
+//         break;
+//     default:
+//         console.log("What a werido...");
+//         break;
+// }
 
-switch(pizzaPreference.toLowerCase()) {
-    case "cheese":
-        console.log("I Love Cheese too");
-        break;
-    case "hawaiian":
-        console.log("I dig it sweet and salty");
-        break;
-    case "supreme":
-        console.log("Me too why choose when you can have everything");
-        break;
-    case "Perperoni":
-        console.log("Classic choice");
-        break;
-    default:
-        console.log("What a werido...");
-        break;
-}
+// IIFE
+
+(() => {
+    //start here
+
+})();
