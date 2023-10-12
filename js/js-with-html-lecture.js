@@ -198,3 +198,19 @@
     //start here
 
 })();
+
+const fighter = {
+    name: "Ryu",
+    hp: 100,
+    outfit: {
+        color: "white",
+        type: "karate gi",
+    },
+    attack: function (){
+        console.log("Hadouken!");
+    },
+};
+fighter.attack();
+console.log(fighter.name);
+console.log(fighter.hp);
+console.log(fighter.outfit.color);
