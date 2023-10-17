@@ -194,23 +194,39 @@
 
 // IIFE
 
+// (() => {
+//     //start here
+//
+// })();
+//
+// const fighter = {
+//     name: "Ryu",
+//     hp: 100,
+//     outfit: {
+//         color: "white",
+//         type: "karate gi",
+//     },
+//     attack: function (){
+//         console.log("Hadouken!");
+//     },
+// };
+// fighter.attack();
+// console.log(fighter.name);
+// console.log(fighter.hp);
+// console.log(fighter.outfit.color);
+
+// Classes
+// classes start with uppercase, always have constructor method
+
+//Date Object
+let postDate = new Date().getTime();
+
+
+
+
+
+
+// IIFE
 (() => {
-    //start here
 
-})();
-
-const fighter = {
-    name: "Ryu",
-    hp: 100,
-    outfit: {
-        color: "white",
-        type: "karate gi",
-    },
-    attack: function (){
-        console.log("Hadouken!");
-    },
-};
-fighter.attack();
-console.log(fighter.name);
-console.log(fighter.hp);
-console.log(fighter.outfit.color);
+})()
