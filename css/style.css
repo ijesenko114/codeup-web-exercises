@@ -1,8 +1,54 @@
-
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
 
 .fancy-header {
-
+    color:White;
+    text-align: center;
 }
 
+header p {
+    text-align: center;
+}
+
+header {
+    text-decoration: underline;
+    color: White;
+}
+
+body {
+    font-family: "Modern Antiqua";
+    color: white;
+    background-color: darkgrey;
+    background-image: url("../img/mars.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+img {
+    width: 600px;
+}
+
+ul {
+    list-style-type: square; /* Change the list item marker to a square */
+}
+
+ol {
+    list-style-type: decimal; /* Change the list item marker to numbers (1, 2, 3, etc.) */
+}
+
+
+td {
+    padding: 12px;
+    font-size: 14px;
+}
+
+
+tr {
+    padding: 10px 0;
+}
+
+
+a:hover {
+    color: lime;
+}
