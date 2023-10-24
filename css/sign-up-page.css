@@ -1,0 +1,26 @@
+:root {
+    /* Color styles */
+    --white: rgba(255, 255, 255, 1);
+    --grey-25: rgba(25, 24, 43, 0.25);
+    --pale--navy: rgba(54, 56, 77, 1);
+    --dark--navy: rgba(36, 39, 66, 1);
+    --vermellion: rgba(255, 97, 85, 1);
+
+    /* Text-size styles */
+    --heading: 56px;
+    --body: 16px;
+    --body--bold: 16px;
+    --body--small: 12px;
+}
+
+.page-wrapper {
+    background-color: var(--dark--navy);
+}
+
+form#sign-up {
+    background-color: var(--white);
+    border-radius: 35px;
+    width: 100%;
+    max-width: 928px;
+    min-height: 641px;
+}

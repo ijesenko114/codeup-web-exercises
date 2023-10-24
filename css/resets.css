@@ -1,23 +1,28 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
-img {
-    display: block;
-    max-width: 100%; /* Prevent images from growing wider than their parent */
-    height: auto; /* Maintain the image's aspect ratio */
+body {
+    line-height: 1.5;
 }
 
-
+a {
+    color: inherit;
+    text-decoration: unset;
+}
 
 ul {
     list-style: none;
 }
 
-
-a {
-    color: inherit;
-    text-decoration: unset;
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
 }
