@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .page-wrapper {
+        padding: 10px;
+    }
+
+    .column {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+
+
