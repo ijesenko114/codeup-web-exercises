@@ -64,17 +64,19 @@
 // })();
 
 
-const findLongestWord = (sentence) => {
-    const words = sentence.split(" ");
-    let longestWord = "";
+// const findLongestWord = (sentence) => {
+//     const words = sentence.split(" ");
+//     let longestWord = "";
+//
+//     for (const word of words) {
+//         if (word.length > longestWord.length) {
+//             longestWord = word;
+//         }
+//     }
+//
+//     return longestWord;
+// }
+//
+// console.log(findLongestWord("The Quick brown fox jumped over the lazy dog "));
 
-    for (const word of words) {
-        if (word.length > longestWord.length) {
-            longestWord = word;
-        }
-    }
 
-    return longestWord;
-}
-
-console.log(findLongestWord("The Quick brown fox jumped over the lazy dog "));
