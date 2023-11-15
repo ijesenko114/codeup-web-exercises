@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Konami Code</title>
+</head>
+<body>
+<h1>Konami Code</h1>
+
+<script>
+
+  const konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a", "Enter"];
+  let currentCodeIndex = 0;
+
+  document.addEventListener("keyup", event => {
+    if (event.key.toLowerCase() === konamiCode[currentCodeIndex]) {
+      currentCodeIndex++;
+      if (currentCodeIndex === konamiCode.length) {
+        alert("You have added 30 lives!");
+        currentCodeIndex = 0;
+      }
+    } else {
+      currentCodeIndex = 0;
+    }
+  });
+</script>
+</body>
+</html>
