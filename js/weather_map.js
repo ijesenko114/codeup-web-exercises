@@ -16,11 +16,11 @@ const updateWeatherInfo = (forecast) => {
         const dateString = date.toLocaleDateString("en-US", { weekday: 'short', month: 'short', day: 'numeric' });
 
         card.innerHTML = `
-            <div class="card mb-3">
-                <div class="card-header">${dateString}</div>
+            <div class="card mb-3 custom-card">
+                <div class="card-header custom-card-header">${dateString}</div>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Temperature: ${day.temp.day}°C</li>
-                    <li class="list-group-item">Conditions: ${day.weather[0].description}</li>
+                    <li class="list-group-item custom-list-item">Temperature: ${day.temp.day}°C</li>
+                    <li class="list-group-item custom-list-item">Conditions: ${day.weather[0].description}</li>
                 </ul>
             </div>
         `;
